@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+ <!-- Mp3 Player -->
+ <div class="music-player">
+    <!-- Playlist -->
+    <button id="playlist">
+        <i class="fa-solid fa-angle-down"></i>
+    </button>
+ 
+    
+    <!-- Music Image -->
+    <img src="Assets/fuckumean.jpg" alt="" id="song-image">
+    <!-- Music Details -->
+    <div class="song-details">
+        <p id="song-name"></p>
+        <p id="song-artist"></p>
+    </div>
+
+    <!-- Player Options -->
+    <div class="player-options">
+        <button id="shuffle">
+            <i class="fa-solid fa-shuffle"></i>
+        </button>
+        <button id="backward">
+            <i class="fa-solid fa-backward-step"></i>
+        </button>
+        <button id="play">
+            <i class="fa-solid fa-play"></i>
+        </button>
+        <button id="pause">
+            <i class="fa-solid fa-pause"></i>
+        </button>
+        <button id="forward">
+            <i class="fa-solid fa-forward-step"></i>
+        </button>
+        <button id="repeat">
+            <i class="fa-solid fa-repeat"></i>
+        </button>
+    </div>
+
+
+    <!-- Sound and Video-->
+     <audio id="audio" preload="metadata"></audio>
+     <!-- <video id="video"></video> -->
+
+    
+ </div>
+
+
+
+
+
+
+ <script src="main.js"></script>
+</body>
+</html>
